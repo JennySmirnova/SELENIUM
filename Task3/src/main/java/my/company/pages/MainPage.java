@@ -8,21 +8,21 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class MainPage {
-    @FindBy (xpath = "//ul[@class='lg-menu__list']")
+    @FindBy (xpath = "//ul[contains(@class,'kitt-top')]")
     WebElement mainMenu;
 
-    @FindBy (id = "submenu-5") //(xpath = "//*[@id='submenu-5']")
+    @FindBy (xpath = "//div[contains(@class,'kitt-top-menu__dropdown kitt-top-menu__dropdown_icons')]/div[1]") //(xpath = "//*[@id='submenu-5']")
     WebElement subMenu;
 
     public MainPage () {
         PageFactory.initElements(BaseSteps.getDriver(),this);
     }
     public void selectMainMenu (String menuItem) {
-        mainMenu.findElement(By.xpath(".//li//span[contains(text(),'"+menuItem+"')]")).click();
+        mainMenu.findElement(By.xpath(".//a[contains(text(),'"+menuItem+"')]")).click();
 
     }
     public void selectSubMenu (String menuItem) {
-        subMenu.findElement(By.xpath(".//li/a[contains(text(),'"+menuItem+"')]")).click();
+        subMenu.findElement(By.xpath("//a[contains(text(),'"+menuItem+"')]")).click();
 
     }
 }

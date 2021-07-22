@@ -1,0 +1,82 @@
+{
+  "time" : {
+    "start" : 1624773100383,
+    "stop" : 1626960233449,
+    "duration" : 2187133066
+  },
+  "testSuites" : [ {
+    "uid" : "622de7b94ed0eb6a",
+    "name" : "my.company.tests.InsurenceTest",
+    "title" : "Insurence test",
+    "time" : {
+      "start" : 1624773100383,
+      "stop" : 1626960233449,
+      "duration" : 2187133066
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 2
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "6d3813a66c14a54a",
+      "name" : "testInsurence",
+      "title" : "Страхование путешественников",
+      "time" : {
+        "start" : 1624773100383,
+        "stop" : 1624773144391,
+        "duration" : 44008
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f05d34eaae5ef529",
+      "name" : "testInsurence",
+      "title" : "Страхование путешественников",
+      "time" : {
+        "start" : 1626957545620,
+        "stop" : 1626957716502,
+        "duration" : 170882
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "686d3d7f7a236801",
+      "name" : "testInsurence",
+      "title" : "Страхование путешественников",
+      "time" : {
+        "start" : 1626958873474,
+        "stop" : 1626959005899,
+        "duration" : 132425
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "617a1d642c59c023",
+      "name" : "testInsurence",
+      "title" : "Страхование путешественников",
+      "time" : {
+        "start" : 1626960105030,
+        "stop" : 1626960233449,
+        "duration" : 128419
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "878572adaed7ff8a",
+      "name" : "testInsurence",
+      "title" : "Страхование путешественников",
+      "time" : {
+        "start" : 1626957398724,
+        "stop" : 1626957499282,
+        "duration" : 100558
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  } ]
+}

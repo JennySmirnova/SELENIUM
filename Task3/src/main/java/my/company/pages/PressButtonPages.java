@@ -7,7 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class PressButtonPages extends BasePages {
-    @FindBy(xpath = "//b[contains(text(),'Оформить онлайн')]")
+    @FindBy(xpath = "//a[contains(@data-test-id,'PageTeaserDict_button')]")
+    //div[@id='page-main']/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]
+    //a[contains(@data-test-id,'PageTeaserDict_button')]
     public WebElement buttonOfOn;
 
     @FindBy(xpath = "//button[contains(text(),'Оформить')]")
@@ -15,6 +17,9 @@ public class PressButtonPages extends BasePages {
      //  driver.findElement(By.xpath("//b[contains(text(),'Оформить онлайн')]")).click();
      @FindBy(xpath = "//button[contains(text(),'Продолжить')]")
      public WebElement buttonContin;
+
+    @FindBy(xpath = "//button[@class='kitt-cookie-warning__close']")
+    public WebElement protect;
 
     public PressButtonPages() {
         PageFactory.initElements(BaseSteps.getDriver(),this);
@@ -26,6 +31,7 @@ public class PressButtonPages extends BasePages {
                 buttonOf.click();
                 break;
             case "Оформить онлайн":
+                protect.click();
                 scrollDown(buttonOfOn);
                 buttonOfOn.click();
                 break;

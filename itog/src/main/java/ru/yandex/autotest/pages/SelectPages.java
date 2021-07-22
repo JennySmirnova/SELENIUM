@@ -11,7 +11,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 public class SelectPages extends BasePages{
-    @FindBy(xpath = "//*[contains(@class,'n-snippet-card2 i-bem ')]//h3/a[contains(@class,'link n-link_theme')]")
+    @FindBy(xpath = "//h3[contains(@class,'_3dCGE8Y9v3 cLo1fZHm2y')]")
     List<WebElement> list;
 
     @FindBy(id = "header-search")

@@ -1,0 +1,446 @@
+{
+  "uid" : "fd6250e7db0a3489",
+  "name" : "Наушники",
+  "title" : "Наушники",
+  "time" : {
+    "start" : 1624348570225,
+    "stop" : 1624348613325,
+    "duration" : 43100
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 26
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "6513aedf351ca53e",
+    "name" : "Электроника",
+    "title" : "Электроника"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Маркет\"",
+    "title" : "Когда выбран пункт меню \"Маркет\"",
+    "time" : {
+      "start" : 1624348578664,
+      "stop" : 1624348579631,
+      "duration" : 967
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMenuItem[Маркет]",
+      "title" : "Выбран пункт меню Маркет",
+      "time" : {
+        "start" : 1624348578665,
+        "stop" : 1624348579631,
+        "duration" : 966
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран раздел \"Электроника\"",
+    "title" : "И выбран раздел \"Электроника\"",
+    "time" : {
+      "start" : 1624348579632,
+      "stop" : 1624348589152,
+      "duration" : 9520
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "setTabList[Электроника]",
+      "title" : "Выбран пункт меню Электроника",
+      "time" : {
+        "start" : 1624348579634,
+        "stop" : 1624348589151,
+        "duration" : 9517
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда заголовок страницы имеет текст \"Электроника\"",
+    "title" : "Тогда заголовок страницы имеет текст \"Электроника\"",
+    "time" : {
+      "start" : 1624348589152,
+      "stop" : 1624348589281,
+      "duration" : 129
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "titleTabList[Электроника]",
+      "title" : "Заголовок страницы равен Электроника",
+      "time" : {
+        "start" : 1624348589154,
+        "stop" : 1624348589281,
+        "duration" : 127
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран раздел 2\"Наушники и Bluetooth-гарнитуры\"",
+    "title" : "Когда выбран раздел 2\"Наушники и Bluetooth-гарнитуры\"",
+    "time" : {
+      "start" : 1624348589282,
+      "stop" : 1624348597846,
+      "duration" : 8564
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "setNavigationTree[Наушники и Bluetooth-гарнитуры]",
+      "title" : "Выбран раздел Наушники и Bluetooth-гарнитуры",
+      "time" : {
+        "start" : 1624348589283,
+        "stop" : 1624348597846,
+        "duration" : 8563
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда заголовок страницы 2 имеет текст \"Наушники и Bluetooth-гарнитуры\"",
+    "title" : "Тогда заголовок страницы 2 имеет текст \"Наушники и Bluetooth-гарнитуры\"",
+    "time" : {
+      "start" : 1624348597846,
+      "stop" : 1624348597966,
+      "duration" : 120
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "titleNavigationTree[Наушники и Bluetooth-гарнитуры]",
+      "title" : "Заголовок страницы 2 равен Наушники и Bluetooth-гарнитуры",
+      "time" : {
+        "start" : 1624348597848,
+        "stop" : 1624348597966,
+        "duration" : 118
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Нажата кнопка \"Все фильтры\"",
+    "title" : "Когда Нажата кнопка \"Все фильтры\"",
+    "time" : {
+      "start" : 1624348597966,
+      "stop" : 1624348601391,
+      "duration" : 3425
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pressButtonOf[Все фильтры]",
+      "title" : "Нажать кнопку Все фильтры",
+      "time" : {
+        "start" : 1624348597968,
+        "stop" : 1624348601391,
+        "duration" : 3423
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполнено поле\"Сумма ОТ\" значением \"5000\"",
+    "title" : "Когда заполнено поле\"Сумма ОТ\" значением \"5000\"",
+    "time" : {
+      "start" : 1624348601391,
+      "stop" : 1624348601998,
+      "duration" : 607
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectSum[Сумма ОТ, 5000]",
+      "title" : "В поле Сумма ОТ ввести 5000",
+      "time" : {
+        "start" : 1624348601392,
+        "stop" : 1624348601997,
+        "duration" : 605
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Выбран производитель \"Beats\"",
+    "title" : "И Выбран производитель \"Beats\"",
+    "time" : {
+      "start" : 1624348601998,
+      "stop" : 1624348606523,
+      "duration" : 4525
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "setProducer[Beats]",
+      "title" : "Выбрать производителя: Beats ",
+      "time" : {
+        "start" : 1624348602000,
+        "stop" : 1624348606523,
+        "duration" : 4523
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Нажата кнопка \"Показать подходящие\"",
+    "title" : "И Нажата кнопка \"Показать подходящие\"",
+    "time" : {
+      "start" : 1624348606523,
+      "stop" : 1624348611110,
+      "duration" : 4587
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pressButtonOf[Показать подходящие]",
+      "title" : "Нажать кнопку Показать подходящие",
+      "time" : {
+        "start" : 1624348606525,
+        "stop" : 1624348611109,
+        "duration" : 4584
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Количество элементов на странице равно \"17\"",
+    "title" : "Тогда Количество элементов на странице равно \"17\"",
+    "time" : {
+      "start" : 1624348611110,
+      "stop" : 1624348611137,
+      "duration" : 27
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "countElements[17]",
+      "title" : "Количество элементов на странице равно 17",
+      "time" : {
+        "start" : 1624348611111,
+        "stop" : 1624348611136,
+        "duration" : 25
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Запомнен текст элемента \"1\"",
+    "title" : "Когда Запомнен текст элемента \"1\"",
+    "time" : {
+      "start" : 1624348611137,
+      "stop" : 1624348611531,
+      "duration" : 394
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "getElementText[1]",
+      "title" : "Запомнить текст 1 элемента",
+      "time" : {
+        "start" : 1624348611138,
+        "stop" : 1624348611531,
+        "duration" : 393
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Строка поиска заполнена запомненым текстом элемента \"1\"",
+    "title" : "И Строка поиска заполнена запомненым текстом элемента \"1\"",
+    "time" : {
+      "start" : 1624348611531,
+      "stop" : 1624348612010,
+      "duration" : 479
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "searchElement[1]",
+      "title" : "Заполнить строку поиска значением элемента 1",
+      "time" : {
+        "start" : 1624348611533,
+        "stop" : 1624348612010,
+        "duration" : 477
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Проверить, что строка поиска заполнена текстом элемента \"1\"",
+    "title" : "Тогда Проверить, что строка поиска заполнена текстом элемента \"1\"",
+    "time" : {
+      "start" : 1624348612010,
+      "stop" : 1624348612130,
+      "duration" : 120
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "getFillField[1]",
+      "title" : "Проверить, что значение в строке поиска равно значению элемента 1",
+      "time" : {
+        "start" : 1624348612011,
+        "stop" : 1624348612130,
+        "duration" : 119
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Электроника"
+  }, {
+    "name" : "suite-name",
+    "value" : "Электроника"
+  }, {
+    "name" : "thread",
+    "value" : "14312@NB-03535.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "NB-03535"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "story",
+    "value" : "Наушники"
+  } ],
+  "parameters" : [ ]
+}

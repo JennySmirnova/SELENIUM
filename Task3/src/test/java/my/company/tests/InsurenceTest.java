@@ -32,7 +32,7 @@ public class InsurenceTest extends BaseSteps {
         testData.put("Кем выдано", "поврдлрплв");
 
         mainPageSteps.selectMainMenu("Страхование");
-        mainPageSteps.selectSubMenu("Страхование путешественников");
+        mainPageSteps.selectSubMenu("Путешествия");
         pressButtonSteps.pressButtonOf("Оформить онлайн");
         selectPolicySteps.selectPolicy("Минимальная");
         pressButtonSteps.pressButtonOf("Оформить");

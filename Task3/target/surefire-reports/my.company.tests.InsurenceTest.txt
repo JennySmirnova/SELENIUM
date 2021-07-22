@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: my.company.tests.InsurenceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 131.876 s - in my.company.tests.InsurenceTest

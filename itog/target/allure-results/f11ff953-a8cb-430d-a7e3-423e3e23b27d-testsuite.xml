@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1624512885705" stop="1624512986453" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Электроника</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1624512885795" stop="1624512932924" status="passed">
+            <name>Телевизоры</name>
+            <title>Телевизоры</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1624512898007" stop="1624512901674" status="passed">
+                    <name>Когда выбран пункт меню "Маркет"</name>
+                    <title>Когда выбран пункт меню "Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512899159" stop="1624512901672" status="passed">
+                            <name>selectMenuItem[Маркет]</name>
+                            <title>Выбран пункт меню Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512901674" stop="1624512909267" status="passed">
+                    <name>И выбран раздел "Электроника"</name>
+                    <title>И выбран раздел "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512901679" stop="1624512909267" status="passed">
+                            <name>setTabList[Электроника]</name>
+                            <title>Выбран пункт меню Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512909268" stop="1624512909487" status="passed">
+                    <name>Тогда заголовок страницы имеет текст "Электроника"</name>
+                    <title>Тогда заголовок страницы имеет текст "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512909271" stop="1624512909486" status="passed">
+                            <name>titleTabList[Электроника]</name>
+                            <title>Заголовок страницы равен Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512909489" stop="1624512917297" status="passed">
+                    <name>Когда выбран раздел 2"Телевизоры"</name>
+                    <title>Когда выбран раздел 2"Телевизоры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512909493" stop="1624512917297" status="passed">
+                            <name>setNavigationTree[Телевизоры]</name>
+                            <title>Выбран раздел Телевизоры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512917297" stop="1624512917448" status="passed">
+                    <name>Тогда заголовок страницы 2 имеет текст "Телевизоры"</name>
+                    <title>Тогда заголовок страницы 2 имеет текст "Телевизоры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512917299" stop="1624512917448" status="passed">
+                            <name>titleNavigationTree[Телевизоры]</name>
+                            <title>Заголовок страницы 2 равен Телевизоры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512917448" stop="1624512921329" status="passed">
+                    <name>Когда Нажата кнопка "Все фильтры"</name>
+                    <title>Когда Нажата кнопка "Все фильтры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512917450" stop="1624512921329" status="passed">
+                            <name>pressButtonOf[Все фильтры]</name>
+                            <title>Нажать кнопку Все фильтры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512921329" stop="1624512922282" status="passed">
+                    <name>Когда заполнено поле"Сумма ОТ" значением "20000"</name>
+                    <title>Когда заполнено поле"Сумма ОТ" значением "20000"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512921331" stop="1624512922281" status="passed">
+                            <name>selectSum[Сумма ОТ, 20000]</name>
+                            <title>В поле Сумма ОТ ввести 20000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512922282" stop="1624512922627" status="passed">
+                    <name>И Выбран производитель "Samsung"</name>
+                    <title>И Выбран производитель "Samsung"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512922284" stop="1624512922626" status="passed">
+                            <name>setProducer[Samsung]</name>
+                            <title>Выбрать производителя: Samsung </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512922627" stop="1624512923063" status="passed">
+                    <name>И Выбран производитель "LG"</name>
+                    <title>И Выбран производитель "LG"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512922630" stop="1624512923063" status="passed">
+                            <name>setProducer[LG]</name>
+                            <title>Выбрать производителя: LG </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512923063" stop="1624512929172" status="passed">
+                    <name>И Нажата кнопка "Показать подходящие"</name>
+                    <title>И Нажата кнопка "Показать подходящие"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512923065" stop="1624512929172" status="passed">
+                            <name>pressButtonOf[Показать подходящие]</name>
+                            <title>Нажать кнопку Показать подходящие</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512929173" stop="1624512929302" status="passed">
+                    <name>Тогда Количество элементов на странице равно "48"</name>
+                    <title>Тогда Количество элементов на странице равно "48"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512929183" stop="1624512929302" status="passed">
+                            <name>countElements[48]</name>
+                            <title>Количество элементов на странице равно 48</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512929303" stop="1624512929687" status="passed">
+                    <name>Когда Запомнен текст элемента "1"</name>
+                    <title>Когда Запомнен текст элемента "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512929304" stop="1624512929687" status="passed">
+                            <name>getElementText[1]</name>
+                            <title>Запомнить текст 1 элемента</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512929687" stop="1624512930323" status="passed">
+                    <name>И Строка поиска заполнена запомненым текстом элемента "1"</name>
+                    <title>И Строка поиска заполнена запомненым текстом элемента "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512929690" stop="1624512930322" status="passed">
+                            <name>searchElement[1]</name>
+                            <title>Заполнить строку поиска значением элемента 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512930323" stop="1624512930480" status="passed">
+                    <name>Тогда Проверить, что строка поиска заполнена текстом элемента "1"</name>
+                    <title>Тогда Проверить, что строка поиска заполнена текстом элемента "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624512930325" stop="1624512930479" status="passed">
+                            <name>getFillField[1]</name>
+                            <title>Проверить, что значение в строке поиска равно значению элемента 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Телевизоры"/>
+                <label name="feature" value="Электроника"/>
+                <label name="host" value="NB-03535"/>
+                <label name="thread" value="16700@NB-03535.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1624512932930" stop="1624512986447" status="broken">
+            <name>Наушники</name>
+            <title>Наушники</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
+System info: host: 'NB-03535', ip: '172.22.155.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b356a83a600e9bdd8d8a6ec873f599
+*** Element info: {Using=xpath, value=//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
+System info: host: 'NB-03535', ip: '172.22.155.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b356a83a600e9bdd8d8a6ec873f599
+*** Element info: {Using=xpath, value=//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+	at com.google.common.collect.Iterators$6.transform(Iterators.java:820)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Iterators.addAll(Iterators.java:373)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:165)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:150)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:535)
+	at ru.yandex.autotest.pages.BasePages.scrollDown(BasePages.java:27)
+	at ru.yandex.autotest.pages.SetFilterPages.selectSum(SetFilterPages.java:25)
+	at ru.yandex.autotest.steps.SetFilterSteps.selectSum(SetFilterSteps.java:10)
+	at ru.yandex.autotest.steps.ScenarioSteps.selectSum(ScenarioSteps.java:40)
+	at ✽.Когда заполнено поле"Сумма ОТ" значением "5000"(InsurenseTest.feature:27)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1624512940187" stop="1624512946251" status="passed">
+                    <name>Когда выбран пункт меню "Маркет"</name>
+                    <title>Когда выбран пункт меню "Маркет"</title>
+                    <steps>
+                        <step start="1624512940188" stop="1624512946251" status="passed">
+                            <name>selectMenuItem[Маркет]</name>
+                            <title>Выбран пункт меню Маркет</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512946252" stop="1624512951742" status="passed">
+                    <name>И выбран раздел "Электроника"</name>
+                    <title>И выбран раздел "Электроника"</title>
+                    <steps>
+                        <step start="1624512946253" stop="1624512951741" status="passed">
+                            <name>setTabList[Электроника]</name>
+                            <title>Выбран пункт меню Электроника</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512951742" stop="1624512951902" status="passed">
+                    <name>Тогда заголовок страницы имеет текст "Электроника"</name>
+                    <title>Тогда заголовок страницы имеет текст "Электроника"</title>
+                    <steps>
+                        <step start="1624512951743" stop="1624512951902" status="passed">
+                            <name>titleTabList[Электроника]</name>
+                            <title>Заголовок страницы равен Электроника</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512951902" stop="1624512960602" status="passed">
+                    <name>Когда выбран раздел 2"Наушники и Bluetooth-гарнитуры"</name>
+                    <title>Когда выбран раздел 2"Наушники и Bluetooth-гарнитуры"</title>
+                    <steps>
+                        <step start="1624512951904" stop="1624512960602" status="passed">
+                            <name>setNavigationTree[Наушники и Bluetooth-гарнитуры]</name>
+                            <title>Выбран раздел Наушники и Bluetooth-гарнитуры</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512960602" stop="1624512960729" status="passed">
+                    <name>Тогда заголовок страницы 2 имеет текст "Наушники и Bluetooth-гарнитуры"</name>
+                    <title>Тогда заголовок страницы 2 имеет текст "Наушники и Bluetooth-гарнитуры"</title>
+                    <steps>
+                        <step start="1624512960604" stop="1624512960729" status="passed">
+                            <name>titleNavigationTree[Наушники и Bluetooth-гарнитуры]</name>
+                            <title>Заголовок страницы 2 равен Наушники и Bluetooth-гарнитуры</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512960730" stop="1624512963737" status="passed">
+                    <name>Когда Нажата кнопка "Все фильтры"</name>
+                    <title>Когда Нажата кнопка "Все фильтры"</title>
+                    <steps>
+                        <step start="1624512960732" stop="1624512963735" status="passed">
+                            <name>pressButtonOf[Все фильтры]</name>
+                            <title>Нажать кнопку Все фильтры</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512963737" stop="1624512984518" status="broken">
+                    <name>Когда заполнено поле"Сумма ОТ" значением "5000"</name>
+                    <title>Когда заполнено поле"Сумма ОТ" значением "5000"</title>
+                    <attachments>
+                        <attachment title="Скриншот в момент ошибки" source="228abd5d-5745-417d-9340-23f35cb3d29d-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1624512963738" stop="1624512983815" status="broken">
+                            <name>selectSum[Сумма ОТ, 5000]</name>
+                            <title>В поле Сумма ОТ ввести 5000</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624512984520" stop="1624512984527" status="canceled">
+                    <name>И Выбран производитель "Beats"</name>
+                    <title>И Выбран производитель "Beats"</title>
+                </step>
+                <step start="1624512984527" stop="1624512984527" status="canceled">
+                    <name>И Нажата кнопка "Показать подходящие"</name>
+                    <title>И Нажата кнопка "Показать подходящие"</title>
+                </step>
+                <step start="1624512984528" stop="1624512984528" status="canceled">
+                    <name>Тогда Количество элементов на странице равно "15"</name>
+                    <title>Тогда Количество элементов на странице равно "15"</title>
+                </step>
+                <step start="1624512984528" stop="1624512984528" status="canceled">
+                    <name>Когда Запомнен текст элемента "1"</name>
+                    <title>Когда Запомнен текст элемента "1"</title>
+                </step>
+                <step start="1624512984529" stop="1624512984529" status="canceled">
+                    <name>И Строка поиска заполнена запомненым текстом элемента "1"</name>
+                    <title>И Строка поиска заполнена запомненым текстом элемента "1"</title>
+                </step>
+                <step start="1624512984529" stop="1624512984530" status="canceled">
+                    <name>Тогда Проверить, что строка поиска заполнена текстом элемента "1"</name>
+                    <title>Тогда Проверить, что строка поиска заполнена текстом элемента "1"</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Наушники"/>
+                <label name="feature" value="Электроника"/>
+                <label name="host" value="NB-03535"/>
+                <label name="thread" value="16700@NB-03535.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Электроника"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

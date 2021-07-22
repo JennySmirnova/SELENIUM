@@ -6,6 +6,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.NoSuchElementException;
 
@@ -22,7 +25,9 @@ public class BasePages {
         field.sendKeys(value);
     }
     public void scrollDown(WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
+        PageFactory.initElements(BaseSteps.getDriver(),this);
+        Wait<WebDriver> wait = new WebDriverWait(BaseSteps.getDriver(), 5, 1000);
+        wait.until(ExpectedConditions.visibilityOf(element));
     }
 
 }

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1624773467678" stop="1624773513663" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Страхование</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1624773467739" stop="1624773513651" status="passed">
+            <name>Заявка на страхование путешественников</name>
+            <title>Заявка на страхование путешественников</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1624773492041" stop="1624773494184" status="passed">
+                    <name>Когда выбран пункт меню "Страхование"</name>
+                    <title>Когда выбран пункт меню "Страхование"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773493213" stop="1624773494181" status="passed">
+                            <name>selectMainMenu[Страхование]</name>
+                            <title>Выбран пункт меню Страхование</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773494184" stop="1624773498209" status="passed">
+                    <name>И выбран вид страхования "Путешествия"</name>
+                    <title>И выбран вид страхования "Путешествия"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773494186" stop="1624773498209" status="passed">
+                            <name>selectSubMenu[Путешествия]</name>
+                            <title>Выбран вид страхования Путешествия</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773498210" stop="1624773498465" status="passed">
+                    <name>Тогда заголовок страницы - страхования равен "Страхование путешественников"</name>
+                    <title>Тогда заголовок страницы - страхования равен "Страхование путешественников"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773498212" stop="1624773498465" status="passed">
+                            <name>pageTitle[Страхование путешественников]</name>
+                            <title>Заголовок страницы равен Страхование путешественников</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773498466" stop="1624773498959" status="passed">
+                    <name>Когда выполнено нажатие кнопки "Оформить онлайн"</name>
+                    <title>Когда выполнено нажатие кнопки "Оформить онлайн"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773498467" stop="1624773498958" status="passed">
+                            <name>pressButtonOf[Оформить онлайн]</name>
+                            <title>Нажать кнопку Оформить онлайн</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773498959" stop="1624773503754" status="passed">
+                    <name>Тогда В заголовке страницы имеется текст "Регион действия полиса"</name>
+                    <title>Тогда В заголовке страницы имеется текст "Регион действия полиса"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773498962" stop="1624773503753" status="passed">
+                            <name>pageTitle[Регион действия полиса]</name>
+                            <title>В заголовке имеется текст Регион действия полиса</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773503754" stop="1624773504099" status="passed">
+                    <name>Когда Выбран вид полиса - "Минимальная"</name>
+                    <title>Когда Выбран вид полиса - "Минимальная"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773503756" stop="1624773504099" status="passed">
+                            <name>selectPolicy[Минимальная]</name>
+                            <title>Выбрать полис Минимальная</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773504099" stop="1624773504338" status="passed">
+                    <name>И Нажата кнопка "Оформить"</name>
+                    <title>И Нажата кнопка "Оформить"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773504100" stop="1624773504338" status="passed">
+                            <name>pressButtonOf[Оформить]</name>
+                            <title>Нажать кнопку Оформить</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773504339" stop="1624773505416" status="passed">
+                    <name>Тогда В заголовке имеется текст "Застрахованные"</name>
+                    <title>Тогда В заголовке имеется текст "Застрахованные"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773504341" stop="1624773505416" status="passed">
+                            <name>pageTitle[Застрахованные]</name>
+                            <title>В заголовке имеется текст Застрахованные</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773505417" stop="1624773510773" status="passed">
+                    <name>Когда заполняются поля:</name>
+                    <title>Когда заполняются поля:</title>
+                    <attachments>
+                        <attachment title="Data table" source="f746b4f9-2d55-499e-b720-a634c28b47a6-attachment.tsv" type="text/tab-separated-values"/>
+                    </attachments>
+                    <steps>
+                        <step start="1624773506228" stop="1624773506629" status="passed">
+                            <name>fillField[Surname, Ivanov]</name>
+                            <title>Поле Surname заполняется значением Ivanov</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773506630" stop="1624773506929" status="passed">
+                            <name>fillField[Name, Ivan]</name>
+                            <title>Поле Name заполняется значением Ivan</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773506930" stop="1624773507571" status="passed">
+                            <name>fillField[birthDate, 16.10.1996]</name>
+                            <title>Поле birthDate заполняется значением 16.10.1996</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773507572" stop="1624773507922" status="passed">
+                            <name>fillField[Фамилия, Иванов]</name>
+                            <title>Поле Фамилия заполняется значением Иванов</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773507923" stop="1624773508157" status="passed">
+                            <name>fillField[Имя, Иван]</name>
+                            <title>Поле Имя заполняется значением Иван</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773508158" stop="1624773508463" status="passed">
+                            <name>fillField[Отчество, Иванович]</name>
+                            <title>Поле Отчество заполняется значением Иванович</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773508464" stop="1624773509028" status="passed">
+                            <name>fillField[Дата Рождения, 16.10.1996]</name>
+                            <title>Поле Дата Рождения заполняется значением 16.10.1996</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773509029" stop="1624773509227" status="passed">
+                            <name>fillField[Пол, Мужской]</name>
+                            <title>Поле Пол заполняется значением Мужской</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773509228" stop="1624773509561" status="passed">
+                            <name>fillField[Серия Паспорта, 1111]</name>
+                            <title>Поле Серия Паспорта заполняется значением 1111</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773509562" stop="1624773509833" status="passed">
+                            <name>fillField[Номер Паспорта, 111111]</name>
+                            <title>Поле Номер Паспорта заполняется значением 111111</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773509834" stop="1624773510366" status="passed">
+                            <name>fillField[Дата Выдачи, 25.10.2016]</name>
+                            <title>Поле Дата Выдачи заполняется значением 25.10.2016</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773510368" stop="1624773510773" status="passed">
+                            <name>fillField[Кем выдано, поврдлрплв]</name>
+                            <title>Поле Кем выдано заполняется значением поврдлрплв</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773510774" stop="1624773511513" status="passed">
+                    <name>Тогда значения полей равны:</name>
+                    <title>Тогда значения полей равны:</title>
+                    <attachments>
+                        <attachment title="Data table" source="db9bce31-3038-46ff-ad31-2f1cb93cc78f-attachment.tsv" type="text/tab-separated-values"/>
+                    </attachments>
+                    <steps>
+                        <step start="1624773510876" stop="1624773510988" status="passed">
+                            <name>checkFillField[Surname, Ivanov]</name>
+                            <title>Поле Surname заполнено значением Ivanov</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773510989" stop="1624773511019" status="passed">
+                            <name>checkFillField[Name, Ivan]</name>
+                            <title>Поле Name заполнено значением Ivan</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773511020" stop="1624773511050" status="passed">
+                            <name>checkFillField[birthDate, 16.10.1996]</name>
+                            <title>Поле birthDate заполнено значением 16.10.1996</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773511051" stop="1624773511160" status="passed">
+                            <name>checkFillField[Фамилия, Иванов]</name>
+                            <title>Поле Фамилия заполнено значением Иванов</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773511161" stop="1624773511203" status="passed">
+                            <name>checkFillField[Имя, Иван]</name>
+                            <title>Поле Имя заполнено значением Иван</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773511204" stop="1624773511236" status="passed">
+                            <name>checkFillField[Отчество, Иванович]</name>
+                            <title>Поле Отчество заполнено значением Иванович</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773511237" stop="1624773511277" status="passed">
+                            <name>checkFillField[Дата Рождения, 16.10.1996]</name>
+                            <title>Поле Дата Рождения заполнено значением 16.10.1996</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773511278" stop="1624773511357" status="passed">
+                            <name>checkFillField[Серия Паспорта, 1111]</name>
+                            <title>Поле Серия Паспорта заполнено значением 1111</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773511358" stop="1624773511427" status="passed">
+                            <name>checkFillField[Номер Паспорта, 111111]</name>
+                            <title>Поле Номер Паспорта заполнено значением 111111</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773511428" stop="1624773511479" status="passed">
+                            <name>checkFillField[Дата Выдачи, 25.10.2016]</name>
+                            <title>Поле Дата Выдачи заполнено значением 25.10.2016</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1624773511480" stop="1624773511513" status="passed">
+                            <name>checkFillField[Кем выдано, поврдлрплв]</name>
+                            <title>Поле Кем выдано заполнено значением поврдлрплв</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773511514" stop="1624773511745" status="passed">
+                    <name>Когда Выполнено нажатие кнопки "Продолжить"</name>
+                    <title>Когда Выполнено нажатие кнопки "Продолжить"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773511515" stop="1624773511744" status="passed">
+                            <name>pressButtonOf[Продолжить]</name>
+                            <title>Нажать кнопку Продолжить</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773511745" stop="1624773511833" status="passed">
+                    <name>Тогда в поле "phone" присутствует сообщение об ошибке "Поле не заполнено"</name>
+                    <title>Тогда в поле "phone" присутствует сообщение об ошибке "Поле не заполнено"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773511748" stop="1624773511833" status="passed">
+                            <name>checkErrorMessageField[phone, Поле не заполнено]</name>
+                            <title>в поле phone присутствует сообщение об ошибке Поле не заполнено</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773511834" stop="1624773511910" status="passed">
+                    <name>И в поле "email" присутствует сообщение об ошибке "Поле не заполнено"</name>
+                    <title>И в поле "email" присутствует сообщение об ошибке "Поле не заполнено"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773511836" stop="1624773511910" status="passed">
+                            <name>checkErrorMessageField[email, Поле не заполнено]</name>
+                            <title>в поле email присутствует сообщение об ошибке Поле не заполнено</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624773511910" stop="1624773511997" status="passed">
+                    <name>И в поле "repeatEmail" присутствует сообщение об ошибке "Поле не заполнено"</name>
+                    <title>И в поле "repeatEmail" присутствует сообщение об ошибке "Поле не заполнено"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624773511911" stop="1624773511997" status="passed">
+                            <name>checkErrorMessageField[repeatEmail, Поле не заполнено]</name>
+                            <title>в поле repeatEmail присутствует сообщение об ошибке Поле не заполнено</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Заявка на страхование путешественников"/>
+                <label name="feature" value="Страхование"/>
+                <label name="host" value="NB-03535"/>
+                <label name="thread" value="21432@NB-03535.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Страхование"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,476 @@
+{
+  "uid" : "5dcbef3f3996822e",
+  "name" : "Телевизоры",
+  "title" : "Телевизоры",
+  "time" : {
+    "start" : 1626960722845,
+    "stop" : 1626960884183,
+    "duration" : 161338
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 28
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a5bf881f80e3e55d",
+    "name" : "Электроника",
+    "title" : "Электроника"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Маркет\"",
+    "title" : "Когда выбран пункт меню \"Маркет\"",
+    "time" : {
+      "start" : 1626960789637,
+      "stop" : 1626960794494,
+      "duration" : 4857
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMenuItem[Маркет]",
+      "title" : "Выбран пункт меню Маркет",
+      "time" : {
+        "start" : 1626960793210,
+        "stop" : 1626960794491,
+        "duration" : 1281
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран раздел \"Электроника\"",
+    "title" : "И выбран раздел \"Электроника\"",
+    "time" : {
+      "start" : 1626960794494,
+      "stop" : 1626960835911,
+      "duration" : 41417
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "setTabList[Электроника]",
+      "title" : "Выбран пункт меню Электроника",
+      "time" : {
+        "start" : 1626960794499,
+        "stop" : 1626960835910,
+        "duration" : 41411
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда заголовок страницы имеет текст \"Электроника\"",
+    "title" : "Тогда заголовок страницы имеет текст \"Электроника\"",
+    "time" : {
+      "start" : 1626960835911,
+      "stop" : 1626960836020,
+      "duration" : 109
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "titleTabList[Электроника]",
+      "title" : "Заголовок страницы равен Электроника",
+      "time" : {
+        "start" : 1626960835916,
+        "stop" : 1626960836020,
+        "duration" : 104
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран раздел 2\"Телевизоры\"",
+    "title" : "Когда выбран раздел 2\"Телевизоры\"",
+    "time" : {
+      "start" : 1626960836020,
+      "stop" : 1626960848329,
+      "duration" : 12309
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "setNavigationTree[Телевизоры]",
+      "title" : "Выбран раздел Телевизоры",
+      "time" : {
+        "start" : 1626960836025,
+        "stop" : 1626960848328,
+        "duration" : 12303
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда заголовок страницы 2 имеет текст \"Телевизоры\"",
+    "title" : "Тогда заголовок страницы 2 имеет текст \"Телевизоры\"",
+    "time" : {
+      "start" : 1626960848329,
+      "stop" : 1626960848519,
+      "duration" : 190
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "titleNavigationTree[Телевизоры]",
+      "title" : "Заголовок страницы 2 равен Телевизоры",
+      "time" : {
+        "start" : 1626960848333,
+        "stop" : 1626960848519,
+        "duration" : 186
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Нажата кнопка \"Все фильтры\"",
+    "title" : "Когда Нажата кнопка \"Все фильтры\"",
+    "time" : {
+      "start" : 1626960848520,
+      "stop" : 1626960865368,
+      "duration" : 16848
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pressButtonOf[Все фильтры]",
+      "title" : "Нажать кнопку Все фильтры",
+      "time" : {
+        "start" : 1626960848524,
+        "stop" : 1626960865368,
+        "duration" : 16844
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполнено поле\"Сумма ОТ\" значением \"20000\"",
+    "title" : "Когда заполнено поле\"Сумма ОТ\" значением \"20000\"",
+    "time" : {
+      "start" : 1626960865369,
+      "stop" : 1626960867096,
+      "duration" : 1727
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectSum[Сумма ОТ, 20000]",
+      "title" : "В поле Сумма ОТ ввести 20000",
+      "time" : {
+        "start" : 1626960865372,
+        "stop" : 1626960867096,
+        "duration" : 1724
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Выбран производитель \"Samsung\"",
+    "title" : "И Выбран производитель \"Samsung\"",
+    "time" : {
+      "start" : 1626960867097,
+      "stop" : 1626960867730,
+      "duration" : 633
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "setProducer[Samsung]",
+      "title" : "Выбрать производителя: Samsung ",
+      "time" : {
+        "start" : 1626960867100,
+        "stop" : 1626960867730,
+        "duration" : 630
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Выбран производитель \"LG\"",
+    "title" : "И Выбран производитель \"LG\"",
+    "time" : {
+      "start" : 1626960867730,
+      "stop" : 1626960868093,
+      "duration" : 363
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "setProducer[LG]",
+      "title" : "Выбрать производителя: LG ",
+      "time" : {
+        "start" : 1626960867734,
+        "stop" : 1626960868093,
+        "duration" : 359
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Нажата кнопка \"Показать подходящие\"",
+    "title" : "И Нажата кнопка \"Показать подходящие\"",
+    "time" : {
+      "start" : 1626960868094,
+      "stop" : 1626960876847,
+      "duration" : 8753
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pressButtonOf[Показать подходящие]",
+      "title" : "Нажать кнопку Показать подходящие",
+      "time" : {
+        "start" : 1626960868097,
+        "stop" : 1626960876847,
+        "duration" : 8750
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Количество элементов на странице равно \"48\"",
+    "title" : "Тогда Количество элементов на странице равно \"48\"",
+    "time" : {
+      "start" : 1626960876848,
+      "stop" : 1626960881684,
+      "duration" : 4836
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "countElements[48]",
+      "title" : "Количество элементов на странице равно 48",
+      "time" : {
+        "start" : 1626960876859,
+        "stop" : 1626960881683,
+        "duration" : 4824
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Запомнен текст элемента \"1\"",
+    "title" : "Когда Запомнен текст элемента \"1\"",
+    "time" : {
+      "start" : 1626960881684,
+      "stop" : 1626960881789,
+      "duration" : 105
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "getElementText[1]",
+      "title" : "Запомнить текст 1 элемента",
+      "time" : {
+        "start" : 1626960881688,
+        "stop" : 1626960881789,
+        "duration" : 101
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Строка поиска заполнена запомненым текстом элемента \"1\"",
+    "title" : "И Строка поиска заполнена запомненым текстом элемента \"1\"",
+    "time" : {
+      "start" : 1626960881789,
+      "stop" : 1626960882400,
+      "duration" : 611
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "searchElement[1]",
+      "title" : "Заполнить строку поиска значением элемента 1",
+      "time" : {
+        "start" : 1626960881795,
+        "stop" : 1626960882400,
+        "duration" : 605
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Проверить, что строка поиска заполнена текстом элемента \"1\"",
+    "title" : "Тогда Проверить, что строка поиска заполнена текстом элемента \"1\"",
+    "time" : {
+      "start" : 1626960882400,
+      "stop" : 1626960882620,
+      "duration" : 220
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "getFillField[1]",
+      "title" : "Проверить, что значение в строке поиска равно значению элемента 1",
+      "time" : {
+        "start" : 1626960882404,
+        "stop" : 1626960882619,
+        "duration" : 215
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Телевизоры"
+  }, {
+    "name" : "feature",
+    "value" : "Электроника"
+  }, {
+    "name" : "suite-name",
+    "value" : "Электроника"
+  }, {
+    "name" : "host",
+    "value" : "NB-03540"
+  }, {
+    "name" : "thread",
+    "value" : "113508@NB-03540.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

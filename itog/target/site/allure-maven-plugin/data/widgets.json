@@ -1,0 +1,64 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 10,
+        "passed" : 8,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 1
+      },
+      "time" : {
+        "start" : 1624348520875,
+        "stop" : 1626961016028,
+        "duration" : 2612495153
+      }
+    },
+    "defects" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "77bab137ec5e1d2d",
+        "message" : "AssertionError: Количество элементов равно [%s]. Ожидалось - [%s] expected:<17> but was:<15>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "38c6ddb2387d6bd3",
+        "message" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input\"}\n  (Session info: chrome=91.0.4472.114)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'NB-03535', ip: '172.22.155.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 27b356a83a600e9bdd8d8a6ec873f599\n*** Element info: {Using=xpath, value=//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input}",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "a5bf881f80e3e55d",
+        "title" : "Электроника",
+        "statistic" : {
+          "total" : 10,
+          "passed" : 8,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 1
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Электроника",
+        "statistic" : {
+          "total" : 10,
+          "passed" : 8,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 1
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class PressButtonPages extends BasePages {
     @FindBy(xpath = "//*[contains(text(),'Все фильтры')]")
     WebElement allFiltres;
-    @FindBy(xpath = "//*[contains(@class,'button button_size_l')]")
+    @FindBy(xpath = "//a[@class='_2qvOOvezty _3qN-vKmEan _1Rc6LxE3Tr']")
     WebElement buttonFilter;
 
 

@@ -1,0 +1,47 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "77bab137ec5e1d2d",
+      "failure" : {
+        "message" : "AssertionError: Количество элементов равно [%s]. Ожидалось - [%s] expected:<17> but was:<15>",
+        "stackTrace" : "java.lang.AssertionError: Количество элементов равно [%s]. Ожидалось - [%s] expected:<17> but was:<15>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat ru.yandex.autotest.pages.SelectPages.countElements(SelectPages.java:24)\n\tat ru.yandex.autotest.steps.SelectSteps.countElements(SelectSteps.java:11)\n\tat ru.yandex.autotest.steps.ScenarioSteps.countElements(ScenarioSteps.java:47)\n\tat ✽.Тогда Количество элементов на странице равно \"17\"(InsurenseTest.feature:30)\n"
+      },
+      "testCases" : [ {
+        "uid" : "f6cca5a38453da4",
+        "name" : "Наушники",
+        "title" : "Наушники",
+        "time" : {
+          "start" : 1624512752199,
+          "stop" : 1624512802865,
+          "duration" : 50666
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "38c6ddb2387d6bd3",
+      "failure" : {
+        "message" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input\"}\n  (Session info: chrome=91.0.4472.114)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'NB-03535', ip: '172.22.155.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 27b356a83a600e9bdd8d8a6ec873f599\n*** Element info: {Using=xpath, value=//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input}",
+        "stackTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input\"}\n  (Session info: chrome=91.0.4472.114)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'NB-03535', ip: '172.22.155.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 27b356a83a600e9bdd8d8a6ec873f599\n*** Element info: {Using=xpath, value=//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy20.getWrappedElement(Unknown Source)\n\tat org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)\n\tat com.google.common.collect.Iterators$6.transform(Iterators.java:820)\n\tat com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)\n\tat com.google.common.collect.Iterators.addAll(Iterators.java:373)\n\tat com.google.common.collect.Lists.newArrayList(Lists.java:165)\n\tat com.google.common.collect.Lists.newArrayList(Lists.java:150)\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:535)\n\tat ru.yandex.autotest.pages.BasePages.scrollDown(BasePages.java:27)\n\tat ru.yandex.autotest.pages.SetFilterPages.selectSum(SetFilterPages.java:25)\n\tat ru.yandex.autotest.steps.SetFilterSteps.selectSum(SetFilterSteps.java:10)\n\tat ru.yandex.autotest.steps.ScenarioSteps.selectSum(ScenarioSteps.java:40)\n\tat ✽.Когда заполнено поле\"Сумма ОТ\" значением \"5000\"(InsurenseTest.feature:27)\n"
+      },
+      "testCases" : [ {
+        "uid" : "ce12a6e9b71ffdf3",
+        "name" : "Наушники",
+        "title" : "Наушники",
+        "time" : {
+          "start" : 1624512932930,
+          "stop" : 1624512986447,
+          "duration" : 53517
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,13 @@
+ru\aplana\autotest\steps\MainSteps.class
+ru\aplana\autotest\util\TestProperties.class
+ru\aplana\autotest\util\AllureReporter.class
+ru\aplana\autotest\steps\SelectPolicySteps.class
+ru\aplana\autotest\steps\ScenarioSteps.class
+ru\aplana\autotest\pages\BasePages.class
+ru\aplana\autotest\pages\MainPage.class
+ru\aplana\autotest\pages\SendAppPages.class
+ru\aplana\autotest\steps\SendAppSteps.class
+ru\aplana\autotest\steps\BaseSteps.class
+ru\aplana\autotest\steps\PressButtonSteps.class
+ru\aplana\autotest\pages\PressButtonPages.class
+ru\aplana\autotest\pages\SelectPolicyPages.class

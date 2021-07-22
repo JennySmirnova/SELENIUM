@@ -11,7 +11,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SetFilterPages extends BasePages{
 
-    @FindBy(id = "glf-pricefrom-var")
+    @FindBy(xpath = "//div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input")
     WebElement priceFrom;
     @FindBy(id = "glf-priceto-var")
     WebElement priceTo;

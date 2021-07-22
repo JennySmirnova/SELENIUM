@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1624513038855" stop="1624513121562" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Электроника</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1624513038946" stop="1624513081813" status="passed">
+            <name>Телевизоры</name>
+            <title>Телевизоры</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1624513049932" stop="1624513052013" status="passed">
+                    <name>Когда выбран пункт меню "Маркет"</name>
+                    <title>Когда выбран пункт меню "Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513051210" stop="1624513052011" status="passed">
+                            <name>selectMenuItem[Маркет]</name>
+                            <title>Выбран пункт меню Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513052014" stop="1624513060199" status="passed">
+                    <name>И выбран раздел "Электроника"</name>
+                    <title>И выбран раздел "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513052020" stop="1624513060199" status="passed">
+                            <name>setTabList[Электроника]</name>
+                            <title>Выбран пункт меню Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513060201" stop="1624513060366" status="passed">
+                    <name>Тогда заголовок страницы имеет текст "Электроника"</name>
+                    <title>Тогда заголовок страницы имеет текст "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513060203" stop="1624513060365" status="passed">
+                            <name>titleTabList[Электроника]</name>
+                            <title>Заголовок страницы равен Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513060366" stop="1624513067839" status="passed">
+                    <name>Когда выбран раздел 2"Телевизоры"</name>
+                    <title>Когда выбран раздел 2"Телевизоры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513060369" stop="1624513067839" status="passed">
+                            <name>setNavigationTree[Телевизоры]</name>
+                            <title>Выбран раздел Телевизоры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513067840" stop="1624513068044" status="passed">
+                    <name>Тогда заголовок страницы 2 имеет текст "Телевизоры"</name>
+                    <title>Тогда заголовок страницы 2 имеет текст "Телевизоры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513067841" stop="1624513068044" status="passed">
+                            <name>titleNavigationTree[Телевизоры]</name>
+                            <title>Заголовок страницы 2 равен Телевизоры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513068044" stop="1624513071461" status="passed">
+                    <name>Когда Нажата кнопка "Все фильтры"</name>
+                    <title>Когда Нажата кнопка "Все фильтры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513068046" stop="1624513071461" status="passed">
+                            <name>pressButtonOf[Все фильтры]</name>
+                            <title>Нажать кнопку Все фильтры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513071461" stop="1624513072230" status="passed">
+                    <name>Когда заполнено поле"Сумма ОТ" значением "20000"</name>
+                    <title>Когда заполнено поле"Сумма ОТ" значением "20000"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513071464" stop="1624513072230" status="passed">
+                            <name>selectSum[Сумма ОТ, 20000]</name>
+                            <title>В поле Сумма ОТ ввести 20000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513072230" stop="1624513072543" status="passed">
+                    <name>И Выбран производитель "Samsung"</name>
+                    <title>И Выбран производитель "Samsung"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513072232" stop="1624513072542" status="passed">
+                            <name>setProducer[Samsung]</name>
+                            <title>Выбрать производителя: Samsung </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513072543" stop="1624513072885" status="passed">
+                    <name>И Выбран производитель "LG"</name>
+                    <title>И Выбран производитель "LG"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513072545" stop="1624513072884" status="passed">
+                            <name>setProducer[LG]</name>
+                            <title>Выбрать производителя: LG </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513072885" stop="1624513078735" status="passed">
+                    <name>И Нажата кнопка "Показать подходящие"</name>
+                    <title>И Нажата кнопка "Показать подходящие"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513072887" stop="1624513078735" status="passed">
+                            <name>pressButtonOf[Показать подходящие]</name>
+                            <title>Нажать кнопку Показать подходящие</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513078736" stop="1624513078934" status="passed">
+                    <name>Тогда Количество элементов на странице равно "48"</name>
+                    <title>Тогда Количество элементов на странице равно "48"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513078743" stop="1624513078934" status="passed">
+                            <name>countElements[48]</name>
+                            <title>Количество элементов на странице равно 48</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513078936" stop="1624513079189" status="passed">
+                    <name>Когда Запомнен текст элемента "1"</name>
+                    <title>Когда Запомнен текст элемента "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513078937" stop="1624513079188" status="passed">
+                            <name>getElementText[1]</name>
+                            <title>Запомнить текст 1 элемента</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513079189" stop="1624513080004" status="passed">
+                    <name>И Строка поиска заполнена запомненым текстом элемента "1"</name>
+                    <title>И Строка поиска заполнена запомненым текстом элемента "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513079191" stop="1624513080004" status="passed">
+                            <name>searchElement[1]</name>
+                            <title>Заполнить строку поиска значением элемента 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513080004" stop="1624513080199" status="passed">
+                    <name>Тогда Проверить, что строка поиска заполнена текстом элемента "1"</name>
+                    <title>Тогда Проверить, что строка поиска заполнена текстом элемента "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513080007" stop="1624513080199" status="passed">
+                            <name>getFillField[1]</name>
+                            <title>Проверить, что значение в строке поиска равно значению элемента 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Телевизоры"/>
+                <label name="feature" value="Электроника"/>
+                <label name="host" value="NB-03535"/>
+                <label name="thread" value="17780@NB-03535.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1624513081845" stop="1624513121526" status="passed">
+            <name>Наушники</name>
+            <title>Наушники</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1624513089548" stop="1624513089910" status="passed">
+                    <name>Когда выбран пункт меню "Маркет"</name>
+                    <title>Когда выбран пункт меню "Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513089550" stop="1624513089909" status="passed">
+                            <name>selectMenuItem[Маркет]</name>
+                            <title>Выбран пункт меню Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513089912" stop="1624513098712" status="passed">
+                    <name>И выбран раздел "Электроника"</name>
+                    <title>И выбран раздел "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513089914" stop="1624513098711" status="passed">
+                            <name>setTabList[Электроника]</name>
+                            <title>Выбран пункт меню Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513098712" stop="1624513098890" status="passed">
+                    <name>Тогда заголовок страницы имеет текст "Электроника"</name>
+                    <title>Тогда заголовок страницы имеет текст "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513098713" stop="1624513098889" status="passed">
+                            <name>titleTabList[Электроника]</name>
+                            <title>Заголовок страницы равен Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513098890" stop="1624513107275" status="passed">
+                    <name>Когда выбран раздел 2"Наушники и Bluetooth-гарнитуры"</name>
+                    <title>Когда выбран раздел 2"Наушники и Bluetooth-гарнитуры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513098892" stop="1624513107275" status="passed">
+                            <name>setNavigationTree[Наушники и Bluetooth-гарнитуры]</name>
+                            <title>Выбран раздел Наушники и Bluetooth-гарнитуры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513107276" stop="1624513107385" status="passed">
+                    <name>Тогда заголовок страницы 2 имеет текст "Наушники и Bluetooth-гарнитуры"</name>
+                    <title>Тогда заголовок страницы 2 имеет текст "Наушники и Bluetooth-гарнитуры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513107277" stop="1624513107384" status="passed">
+                            <name>titleNavigationTree[Наушники и Bluetooth-гарнитуры]</name>
+                            <title>Заголовок страницы 2 равен Наушники и Bluetooth-гарнитуры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513107385" stop="1624513110381" status="passed">
+                    <name>Когда Нажата кнопка "Все фильтры"</name>
+                    <title>Когда Нажата кнопка "Все фильтры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513107386" stop="1624513110380" status="passed">
+                            <name>pressButtonOf[Все фильтры]</name>
+                            <title>Нажать кнопку Все фильтры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513110381" stop="1624513111018" status="passed">
+                    <name>Когда заполнено поле"Сумма ОТ" значением "5000"</name>
+                    <title>Когда заполнено поле"Сумма ОТ" значением "5000"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513110382" stop="1624513111018" status="passed">
+                            <name>selectSum[Сумма ОТ, 5000]</name>
+                            <title>В поле Сумма ОТ ввести 5000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513111019" stop="1624513114765" status="passed">
+                    <name>И Выбран производитель "Beats"</name>
+                    <title>И Выбран производитель "Beats"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513111020" stop="1624513114765" status="passed">
+                            <name>setProducer[Beats]</name>
+                            <title>Выбрать производителя: Beats </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513114766" stop="1624513119003" status="passed">
+                    <name>И Нажата кнопка "Показать подходящие"</name>
+                    <title>И Нажата кнопка "Показать подходящие"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513114767" stop="1624513119002" status="passed">
+                            <name>pressButtonOf[Показать подходящие]</name>
+                            <title>Нажать кнопку Показать подходящие</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513119003" stop="1624513119298" status="passed">
+                    <name>Тогда Количество элементов на странице равно "15"</name>
+                    <title>Тогда Количество элементов на странице равно "15"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513119003" stop="1624513119298" status="passed">
+                            <name>countElements[15]</name>
+                            <title>Количество элементов на странице равно 15</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513119299" stop="1624513119374" status="passed">
+                    <name>Когда Запомнен текст элемента "1"</name>
+                    <title>Когда Запомнен текст элемента "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513119301" stop="1624513119374" status="passed">
+                            <name>getElementText[1]</name>
+                            <title>Запомнить текст 1 элемента</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513119374" stop="1624513119781" status="passed">
+                    <name>И Строка поиска заполнена запомненым текстом элемента "1"</name>
+                    <title>И Строка поиска заполнена запомненым текстом элемента "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513119376" stop="1624513119780" status="passed">
+                            <name>searchElement[1]</name>
+                            <title>Заполнить строку поиска значением элемента 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1624513119782" stop="1624513119890" status="passed">
+                    <name>Тогда Проверить, что строка поиска заполнена текстом элемента "1"</name>
+                    <title>Тогда Проверить, что строка поиска заполнена текстом элемента "1"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1624513119784" stop="1624513119890" status="passed">
+                            <name>getFillField[1]</name>
+                            <title>Проверить, что значение в строке поиска равно значению элемента 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Наушники"/>
+                <label name="feature" value="Электроника"/>
+                <label name="host" value="NB-03535"/>
+                <label name="thread" value="17780@NB-03535.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Электроника"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/itog/Itog.iml" filepath="$PROJECT_DIR$/itog/Itog.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Selenium.iml" filepath="$PROJECT_DIR$/.idea/Selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task4/firstTest.iml" filepath="$PROJECT_DIR$/Task4/firstTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task3/firstTest (1).iml" filepath="$PROJECT_DIR$/Task3/firstTest (1).iml" />
     </modules>
   </component>
 </project>

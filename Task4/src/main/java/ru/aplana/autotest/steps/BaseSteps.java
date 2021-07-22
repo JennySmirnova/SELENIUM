@@ -29,8 +29,8 @@ public class BaseSteps {
         driver = new ChromeDriver();
         driver .get("http://www.sberbank.ru/ru/person");
         driver .manage().window().maximize();
-        driver .manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver .manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver .manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver .manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
     }
    /*public static void setUp() throws Exception {
         switch (properties.getProperty("browser")){

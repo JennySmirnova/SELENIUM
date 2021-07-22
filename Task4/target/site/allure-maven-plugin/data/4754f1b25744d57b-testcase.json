@@ -1,0 +1,803 @@
+{
+  "uid" : "4754f1b25744d57b",
+  "name" : "Заявка на страхование путешественников",
+  "title" : "Заявка на страхование путешественников",
+  "time" : {
+    "start" : 1626959804336,
+    "stop" : 1626959950947,
+    "duration" : 146611
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 49
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "59d6c497d09579e0",
+    "name" : "Страхование",
+    "title" : "Страхование"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Страхование\"",
+    "title" : "Когда выбран пункт меню \"Страхование\"",
+    "time" : {
+      "start" : 1626959865730,
+      "stop" : 1626959869264,
+      "duration" : 3534
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMainMenu[Страхование]",
+      "title" : "Выбран пункт меню Страхование",
+      "time" : {
+        "start" : 1626959867878,
+        "stop" : 1626959869261,
+        "duration" : 1383
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран вид страхования \"Путешествия\"",
+    "title" : "И выбран вид страхования \"Путешествия\"",
+    "time" : {
+      "start" : 1626959869265,
+      "stop" : 1626959896293,
+      "duration" : 27028
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectSubMenu[Путешествия]",
+      "title" : "Выбран вид страхования Путешествия",
+      "time" : {
+        "start" : 1626959869269,
+        "stop" : 1626959896293,
+        "duration" : 27024
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда заголовок страницы - страхования равен \"Страхование путешественников\"",
+    "title" : "Тогда заголовок страницы - страхования равен \"Страхование путешественников\"",
+    "time" : {
+      "start" : 1626959896294,
+      "stop" : 1626959896524,
+      "duration" : 230
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pageTitle[Страхование путешественников]",
+      "title" : "Заголовок страницы равен Страхование путешественников",
+      "time" : {
+        "start" : 1626959896297,
+        "stop" : 1626959896523,
+        "duration" : 226
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выполнено нажатие кнопки \"Оформить онлайн\"",
+    "title" : "Когда выполнено нажатие кнопки \"Оформить онлайн\"",
+    "time" : {
+      "start" : 1626959896524,
+      "stop" : 1626959897711,
+      "duration" : 1187
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pressButtonOf[Оформить онлайн]",
+      "title" : "Нажать кнопку Оформить онлайн",
+      "time" : {
+        "start" : 1626959896527,
+        "stop" : 1626959897711,
+        "duration" : 1184
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда В заголовке страницы имеется текст \"Регион действия полиса\"",
+    "title" : "Тогда В заголовке страницы имеется текст \"Регион действия полиса\"",
+    "time" : {
+      "start" : 1626959897711,
+      "stop" : 1626959921177,
+      "duration" : 23466
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pageTitle[Регион действия полиса]",
+      "title" : "В заголовке имеется текст Регион действия полиса",
+      "time" : {
+        "start" : 1626959897716,
+        "stop" : 1626959921176,
+        "duration" : 23460
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выбран вид полиса - \"Минимальная\"",
+    "title" : "Когда Выбран вид полиса - \"Минимальная\"",
+    "time" : {
+      "start" : 1626959921177,
+      "stop" : 1626959921740,
+      "duration" : 563
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectPolicy[Минимальная]",
+      "title" : "Выбрать полис Минимальная",
+      "time" : {
+        "start" : 1626959921184,
+        "stop" : 1626959921739,
+        "duration" : 555
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Нажата кнопка \"Оформить\"",
+    "title" : "И Нажата кнопка \"Оформить\"",
+    "time" : {
+      "start" : 1626959921740,
+      "stop" : 1626959926822,
+      "duration" : 5082
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pressButtonOf[Оформить]",
+      "title" : "Нажать кнопку Оформить",
+      "time" : {
+        "start" : 1626959921744,
+        "stop" : 1626959926822,
+        "duration" : 5078
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда В заголовке имеется текст \"Застрахованные\"",
+    "title" : "Тогда В заголовке имеется текст \"Застрахованные\"",
+    "time" : {
+      "start" : 1626959926823,
+      "stop" : 1626959926899,
+      "duration" : 76
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pageTitle[Застрахованные]",
+      "title" : "В заголовке имеется текст Застрахованные",
+      "time" : {
+        "start" : 1626959926827,
+        "stop" : 1626959926899,
+        "duration" : 72
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1626959926900,
+      "stop" : 1626959944147,
+      "duration" : 17247
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 12
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Data table",
+      "source" : "42e48208-6f84-4957-9896-b69631635fc6-attachment.tsv",
+      "type" : "text/tab-separated-values",
+      "size" : 325,
+      "uid" : "4f3e15b61ced803a"
+    } ],
+    "steps" : [ {
+      "name" : "fillField[Surname, Ivanov]",
+      "title" : "Поле Surname заполняется значением Ivanov",
+      "time" : {
+        "start" : 1626959927659,
+        "stop" : 1626959928572,
+        "duration" : 913
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Name, Ivan]",
+      "title" : "Поле Name заполняется значением Ivan",
+      "time" : {
+        "start" : 1626959928575,
+        "stop" : 1626959929143,
+        "duration" : 568
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[birthDate, 16.10.1996]",
+      "title" : "Поле birthDate заполняется значением 16.10.1996",
+      "time" : {
+        "start" : 1626959929147,
+        "stop" : 1626959930327,
+        "duration" : 1180
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Фамилия, Иванов]",
+      "title" : "Поле Фамилия заполняется значением Иванов",
+      "time" : {
+        "start" : 1626959930329,
+        "stop" : 1626959931043,
+        "duration" : 714
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Имя, Иван]",
+      "title" : "Поле Имя заполняется значением Иван",
+      "time" : {
+        "start" : 1626959931046,
+        "stop" : 1626959931317,
+        "duration" : 271
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Отчество, Иванович]",
+      "title" : "Поле Отчество заполняется значением Иванович",
+      "time" : {
+        "start" : 1626959931321,
+        "stop" : 1626959931722,
+        "duration" : 401
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Дата Рождения, 16.10.1996]",
+      "title" : "Поле Дата Рождения заполняется значением 16.10.1996",
+      "time" : {
+        "start" : 1626959931725,
+        "stop" : 1626959932976,
+        "duration" : 1251
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Пол, Мужской]",
+      "title" : "Поле Пол заполняется значением Мужской",
+      "time" : {
+        "start" : 1626959932980,
+        "stop" : 1626959941667,
+        "duration" : 8687
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Серия Паспорта, 1111]",
+      "title" : "Поле Серия Паспорта заполняется значением 1111",
+      "time" : {
+        "start" : 1626959941670,
+        "stop" : 1626959942096,
+        "duration" : 426
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Номер Паспорта, 111111]",
+      "title" : "Поле Номер Паспорта заполняется значением 111111",
+      "time" : {
+        "start" : 1626959942099,
+        "stop" : 1626959942645,
+        "duration" : 546
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Дата Выдачи, 25.10.2016]",
+      "title" : "Поле Дата Выдачи заполняется значением 25.10.2016",
+      "time" : {
+        "start" : 1626959942648,
+        "stop" : 1626959943616,
+        "duration" : 968
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Кем выдано, поврдлрплв]",
+      "title" : "Поле Кем выдано заполняется значением поврдлрплв",
+      "time" : {
+        "start" : 1626959943619,
+        "stop" : 1626959944147,
+        "duration" : 528
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда значения полей равны:",
+    "title" : "Тогда значения полей равны:",
+    "time" : {
+      "start" : 1626959944147,
+      "stop" : 1626959944800,
+      "duration" : 653
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 11
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Data table",
+      "source" : "6e22fb4c-852d-4486-8371-f83ac3202f31-attachment.tsv",
+      "type" : "text/tab-separated-values",
+      "size" : 303,
+      "uid" : "4f866c992c7e3b0e"
+    } ],
+    "steps" : [ {
+      "name" : "checkFillField[Surname, Ivanov]",
+      "title" : "Поле Surname заполнено значением Ivanov",
+      "time" : {
+        "start" : 1626959944163,
+        "stop" : 1626959944245,
+        "duration" : 82
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Name, Ivan]",
+      "title" : "Поле Name заполнено значением Ivan",
+      "time" : {
+        "start" : 1626959944249,
+        "stop" : 1626959944280,
+        "duration" : 31
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[birthDate, 16.10.1996]",
+      "title" : "Поле birthDate заполнено значением 16.10.1996",
+      "time" : {
+        "start" : 1626959944283,
+        "stop" : 1626959944307,
+        "duration" : 24
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Фамилия, Иванов]",
+      "title" : "Поле Фамилия заполнено значением Иванов",
+      "time" : {
+        "start" : 1626959944310,
+        "stop" : 1626959944412,
+        "duration" : 102
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Имя, Иван]",
+      "title" : "Поле Имя заполнено значением Иван",
+      "time" : {
+        "start" : 1626959944414,
+        "stop" : 1626959944514,
+        "duration" : 100
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Отчество, Иванович]",
+      "title" : "Поле Отчество заполнено значением Иванович",
+      "time" : {
+        "start" : 1626959944516,
+        "stop" : 1626959944581,
+        "duration" : 65
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Дата Рождения, 16.10.1996]",
+      "title" : "Поле Дата Рождения заполнено значением 16.10.1996",
+      "time" : {
+        "start" : 1626959944584,
+        "stop" : 1626959944614,
+        "duration" : 30
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Серия Паспорта, 1111]",
+      "title" : "Поле Серия Паспорта заполнено значением 1111",
+      "time" : {
+        "start" : 1626959944617,
+        "stop" : 1626959944695,
+        "duration" : 78
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Номер Паспорта, 111111]",
+      "title" : "Поле Номер Паспорта заполнено значением 111111",
+      "time" : {
+        "start" : 1626959944698,
+        "stop" : 1626959944727,
+        "duration" : 29
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Дата Выдачи, 25.10.2016]",
+      "title" : "Поле Дата Выдачи заполнено значением 25.10.2016",
+      "time" : {
+        "start" : 1626959944730,
+        "stop" : 1626959944769,
+        "duration" : 39
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Кем выдано, поврдлрплв]",
+      "title" : "Поле Кем выдано заполнено значением поврдлрплв",
+      "time" : {
+        "start" : 1626959944771,
+        "stop" : 1626959944800,
+        "duration" : 29
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выполнено нажатие кнопки \"Продолжить\"",
+    "title" : "Когда Выполнено нажатие кнопки \"Продолжить\"",
+    "time" : {
+      "start" : 1626959944800,
+      "stop" : 1626959949200,
+      "duration" : 4400
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pressButtonOf[Продолжить]",
+      "title" : "Нажать кнопку Продолжить",
+      "time" : {
+        "start" : 1626959944803,
+        "stop" : 1626959949200,
+        "duration" : 4397
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда в поле \"phone\" присутствует сообщение об ошибке \"Поле не заполнено\"",
+    "title" : "Тогда в поле \"phone\" присутствует сообщение об ошибке \"Поле не заполнено\"",
+    "time" : {
+      "start" : 1626959949201,
+      "stop" : 1626959949290,
+      "duration" : 89
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkErrorMessageField[phone, Поле не заполнено]",
+      "title" : "в поле phone присутствует сообщение об ошибке Поле не заполнено",
+      "time" : {
+        "start" : 1626959949205,
+        "stop" : 1626959949290,
+        "duration" : 85
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И в поле \"email\" присутствует сообщение об ошибке \"Поле не заполнено\"",
+    "title" : "И в поле \"email\" присутствует сообщение об ошибке \"Поле не заполнено\"",
+    "time" : {
+      "start" : 1626959949290,
+      "stop" : 1626959949366,
+      "duration" : 76
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkErrorMessageField[email, Поле не заполнено]",
+      "title" : "в поле email присутствует сообщение об ошибке Поле не заполнено",
+      "time" : {
+        "start" : 1626959949293,
+        "stop" : 1626959949366,
+        "duration" : 73
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И в поле \"repeatEmail\" присутствует сообщение об ошибке \"Поле не заполнено\"",
+    "title" : "И в поле \"repeatEmail\" присутствует сообщение об ошибке \"Поле не заполнено\"",
+    "time" : {
+      "start" : 1626959949366,
+      "stop" : 1626959949437,
+      "duration" : 71
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkErrorMessageField[repeatEmail, Поле не заполнено]",
+      "title" : "в поле repeatEmail присутствует сообщение об ошибке Поле не заполнено",
+      "time" : {
+        "start" : 1626959949370,
+        "stop" : 1626959949437,
+        "duration" : 67
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Страхование"
+  }, {
+    "name" : "suite-name",
+    "value" : "Страхование"
+  }, {
+    "name" : "story",
+    "value" : "Заявка на страхование путешественников"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "106276@NB-03540.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "NB-03540"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

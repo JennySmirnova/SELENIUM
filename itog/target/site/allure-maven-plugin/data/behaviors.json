@@ -1,0 +1,148 @@
+{
+  "features" : [ {
+    "title" : "Электроника",
+    "statistic" : {
+      "total" : 10,
+      "passed" : 8,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "e6b9ed4a428dfb4f",
+      "title" : "Телевизоры",
+      "statistic" : {
+        "total" : 5,
+        "passed" : 5,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "babaad9318d06439",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1624348520875,
+          "stop" : 1624348570189,
+          "duration" : 49314
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5dcbef3f3996822e",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1626960722845,
+          "stop" : 1626960884183,
+          "duration" : 161338
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3dcd253167714b45",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1624512692082,
+          "stop" : 1624512752191,
+          "duration" : 60109
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "30f747a875c0a5f6",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1624513038946,
+          "stop" : 1624513081813,
+          "duration" : 42867
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f0d1bb9cb2b961c8",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1624512885795,
+          "stop" : 1624512932924,
+          "duration" : 47129
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "ef4eb515561ed833",
+      "title" : "Наушники",
+      "statistic" : {
+        "total" : 5,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "be1add27406e4a3f",
+        "name" : "Наушники",
+        "title" : "Наушники",
+        "time" : {
+          "start" : 1624348570225,
+          "stop" : 1624348613325,
+          "duration" : 43100
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fbfe5b9a1a00e1f9",
+        "name" : "Наушники",
+        "title" : "Наушники",
+        "time" : {
+          "start" : 1626960884193,
+          "stop" : 1626961016028,
+          "duration" : 131835
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f6cca5a38453da4",
+        "name" : "Наушники",
+        "title" : "Наушники",
+        "time" : {
+          "start" : 1624512752199,
+          "stop" : 1624512802865,
+          "duration" : 50666
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "ea7d44bb77c3491f",
+        "name" : "Наушники",
+        "title" : "Наушники",
+        "time" : {
+          "start" : 1624513081845,
+          "stop" : 1624513121526,
+          "duration" : 39681
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ce12a6e9b71ffdf3",
+        "name" : "Наушники",
+        "title" : "Наушники",
+        "time" : {
+          "start" : 1624512932930,
+          "stop" : 1624512986447,
+          "duration" : 53517
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

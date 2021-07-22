@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import ru.yandex.autotest.steps.BaseSteps;
 
 public class MainPages {
-    @FindBy(xpath = "//div[@class='home-arrow__tabs ']")
+    @FindBy(xpath = "//div[@class='services-new__content']")
     WebElement market;
 
 
@@ -16,7 +16,7 @@ public class MainPages {
         PageFactory.initElements(BaseSteps.getDriver(),this);
     }
     public void selectMenu (String menuItem) {
-        market.findElement(By.xpath(".//a[contains(text(),'"+menuItem+"')]")).click();
+        market.findElement(By.xpath(".//div[contains(text(),'"+menuItem+"')]")).click();
 
 
     }

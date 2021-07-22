@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
 public class TitlePages {
     @FindBy(xpath = "//*[contains(@class,'_3uHkOtqznG ')]")
     public WebElement pageTitleOne;
-    @FindBy (xpath = "//*[contains(@class,'headline__header-title')]")
+    @FindBy (xpath = "//h1[@class='_3wPGpzKmmn']")
     public WebElement pageTitleTwo;
 
     public TitlePages(){PageFactory.initElements(BaseSteps.getDriver(),this);}
@@ -22,7 +22,7 @@ public class TitlePages {
 
     }
     public void titleNavigationTree (String expectedTitle){
-        String actualTitle = pageTitleTwo.findElement(By.xpath(".//*[contains(text(),'"+expectedTitle+"')]")).getText();
+        String actualTitle = pageTitleTwo.findElement(By.xpath("//h1[@class='_3wPGpzKmmn']")).getText();
         assertTrue(String.format("Заголовок равен [%s]. Ожидалось - [%s]",
                 actualTitle, expectedTitle), actualTitle.contains(expectedTitle));
     }

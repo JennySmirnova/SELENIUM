@@ -7,10 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class SelectPolicyPages extends BasePages {
-    @FindBy(xpath = "//fieldset[@class = 'no-offset non-border']")
+    @FindBy(xpath = "//div[@class='online-card-program selected']")
     WebElement viewPolicy;
 
-    @FindBy(xpath = "//*[contains(text(),'Регион действия полиса')]")
+    @FindBy(xpath = "//legend[contains(text(),'Регион действия полиса')]")
     public WebElement pageTitle;
 
     public SelectPolicyPages() {

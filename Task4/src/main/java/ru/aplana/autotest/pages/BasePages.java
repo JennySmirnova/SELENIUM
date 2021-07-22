@@ -1,5 +1,8 @@
 package ru.aplana.autotest.pages;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.aplana.autotest.steps.BaseSteps;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +22,10 @@ public class BasePages {
         field.sendKeys(value);
     }
     public void scrollDown(WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
+        /*((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);*/
+        PageFactory.initElements(BaseSteps.getDriver(),this);
+        Wait<WebDriver> wait = new WebDriverWait(BaseSteps.getDriver(), 5, 1000);
+        wait.until(ExpectedConditions.visibilityOf(element));
     }
 
 }
